@@ -1,0 +1,94 @@
+/* Patrones Globales */
+
+/* Eliminar margen por defecto del BODY */
+body { margin: 0; overflow-x: hidden; }
+
+/* Tipografía Única: Quicksand */
+h1, h2, h3, h4, h5, h6, p, a, span, form, input, select, textarea, option, button, div { font-family: 'Quicksand', sans-serif; }
+
+/* Propiedad display: block; a todas las cajas de estructura para que se comporten como cajas */
+header, main, section, footer, aside, article, figure, figcaption, nav, div { display: block; }
+
+/* Quitar margen que traen por defecto los títulos, subtítulos y párrafos */
+h1, h2, h3, h4, h5, h6, p, figure { margin: 0; }
+
+
+
+/* Estilo Propio */
+
+/* Componente Menú Responsive */
+
+
+
+/* Componente Header con Logo y Menú */
+
+
+body { background: rgb(146, 241, 248); height: 100%; }
+header { background: hotpink; width: 100%; height: 700px; }
+header article { width: 100%;}
+header article figure { margin: 0 auto; width: 200px; padding: 20px 0;}
+header article figure a img { width: 200px; }
+aside#menu-moviles { width: 290px; height: 100%; display: block; margin: 0; float: none; position: fixed; right: -290px; top: 0; z-index: 99999; background: rgba(250, 250, 250, 0.986); }
+aside#menu-moviles a#abrir-menu { height: auto; margin: 0; float: none; position: absolute; top: 25px; left: -50px; display: block; text-decoration: none; color: rgb(2, 30, 66); font-weight: 600; font-size: 2em; line-height: 1em; transition: all 0.3s ease-in; }
+aside#menu-moviles a#abrir-menu:hover { color: rgb(84, 142, 230); transition: all 0.3s ease-in }
+
+aside#menu-moviles a#cerrar-menu { height: auto; margin: 0; float: none; position: absolute; top: 25px; left: -35px; display: none; text-decoration: none; color: rgb(2, 30, 66); font-weight: 600; font-size: 2em; line-height: 1em; transition: all 0.3s ease-in; }
+aside#menu-moviles a#cerrar-menu:hover { color: rgb(84, 142, 230); transition: all 0.3s ease-in; }
+
+aside#menu-moviles nav { width: 50%; height: auto; margin: 15% 10%; float: none; position: relative; }
+aside#menu-moviles nav a { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; color: rgb(2, 30, 66); font-weight: 600; font-size: 1em; padding: 10px 0; text-decoration: none; transition: all 0.3s ease-in; }
+aside#menu-moviles nav a:hover { color: rgb(84, 142, 230); transition: all 0.3s ease-in; }
+
+/* Caja Main */
+main { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+
+/* Slick Slider */
+main section#zona-slider { width: 100%; height: 100vh; margin: 0 auto; float: none; position: relative; }
+main section#zona-slider article.slick-slider { width: 100%; height: 100vh; margin: 0 auto; float: none; position: relative; }
+main section#zona-slider article.slick-slider figure#slide-01 { width: 100%; height: 100vh; margin: 0; float: left; position: relative; background: url('https://i.pinimg.com/originals/e2/d2/9f/e2d29fb7648c8a3dac2f317b1210ae5a.jpg') no-repeat top center; background-size: cover; }
+main section#zona-slider article.slick-slider figure#slide-02 { width: 100%; height: 100vh; margin: 0; float: left; position: relative; background: url('http://img.wkorea.com/w/2018/10/style_5bd6ac497c76c-799x1200.jpg') no-repeat top center; background-size: cover; }
+main section#zona-slider article.slick-slider figure#slide-03 { width: 100%; height: 100vh; margin: 0; float: left; position: relative; background: url('https://cdn.shopify.com/s/files/1/0268/1261/2717/products/MA26091202001519_1200x1800_bff29f14-6758-4209-8e09-1651f561e938_2048x2048.jpg?v=1603453908') no-repeat bottom center; background-size: cover; }
+
+
+Footer { background: #555555; text-align: center;}
+footer .img_footer { padding: 50px 0px 25px 0px ;}
+footer .img_footer a img { width: 135px; }
+footer p { color: #D8D8D7; padding-bottom: 60px; clear: both; font-size: 12px; }
+
+
+
+
+
+
+
+
+/* Zona de Media Queries */
+
+
+
+/* Tablets */
+@media only screen and (max-width: 1199px){
+
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+    
+}
+
+@media only screen and (max-width: 699px){
+    
+}
+
+/* Móviles Grandes */
+@media only screen and (max-width: 499px){
+    
+}
+
+/* Móviles Pequeños */
+@media only screen and (max-width: 399px){
+    
+}
