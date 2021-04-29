@@ -6,7 +6,7 @@
 
         <!-- Codificación de caracteres > Caracteres especiales en Español -->
         <meta charset="utf-8">
-        
+
         <!-- Cargar ícono de favoritos -->
         <link rel="icon" href="img/favicon.png">
 
@@ -19,6 +19,12 @@
         <!-- Enlace a librería de fuentes tipográficas: Google Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;700;800;900&family=Overpass&display=swap" rel="stylesheet">
 
         <!-- Cargar CSS propio -->
         <link rel="stylesheet" href="css/estilo.css">
@@ -53,14 +59,11 @@
         <!-- Componente Header con Logo al centro -->
         <header>
             <article>
-                <figure>
-                    <a href="index.html">
-                        <img src="img/logo.png">
-                    </a>
-                </figure>
-                <p>
-                    El mejor estilo 
-                </p>   
+              <figure>
+                  <a href="index.html">
+                      <img src="img/logo.png">
+                  </a>
+              </figure>
             </article>
         </header>
 
@@ -69,25 +72,96 @@
             <section id="zona-slider">
                 <article class="slick-slider">
                     <figure id="slide-01">
-                        <h3>Vestido SOFIA</h3>
-                        <a href="vestidos-sofia.html">Ver más</a>
+                        <h3>Vestido Sofia</h3>
+                        <a href="vestidos-sofia.html">Comprar</a>
                     </figure>
 
                     <figure id="slide-02">
-                        <h3>Bolso CEREZA</h3>
-                        <a href="bolsos-cereza.html">Ver más</a>
+                        <h3>Bolso Cereza</h3>
+                        <a href="bolsos-cereza.html">Comprar</a>
                     </figure>
 
                     <figure id="slide-03">
-                        <h3>Zapatos GALAXIA</h3>
-                        <a href="zapatos-galaxia.html">Ver más</a>
+                        <h3>Zapatos Galaxia</h3>
+                        <a href="zapatos-galaxia.html">Comprar</a>
                     </figure>
                 </article>
             </section>
 
-            
+            <section id="categorias">
+                <article>
+                  <a href="bolsos.html" class="caja1">
+                    <h3>Bolsos</h3>
+                    <div class="capa-oscura1"></div>
+                  </a>
+                  <a href="vestidos.html" class="caja2">
+                    <h3>Vestidos</h3>
+                    <div class="capa-oscura2"></div>
+                  </a>
+                  <a href="zapatos.html" class="caja3">
+                    <h3>Zapatos</h3>
+                    <div class="capa-oscura3"></div>
+                  </a>
+                </article>
+            </section>
+
+            <section id="productos">
+                <article class="Bolsos">
+                  <h3>Bolsos</h3>
+                  <a href="bolsos-cereza.html" class="bolso1">
+                    <span>
+                      <h3>Bolso Cereza</h3>
+                      <p>$90.000</p>
+                    </span>
+                    <div class="capa-oscura1"></div>
+                  </a>
+                  <a href="bolsos-girasol.html" class="bolso2">
+                    <span>
+                      <h3>Bolso Girasol</h3>
+                      <p>$90.000</p>
+                    </span>
+                    <div class="capa-oscura2"></div>
+                  </a>
+                </article>
+
+                <article class="Vestidos">
+                  <h3>Vestidos</h3>
+                  <a href="vestidos-bella.html" class="vestido1">
+                    <span>
+                      <h3>Vestido Bella</h3>
+                      <p>$90.000</p>
+                    </span>
+                    <div class="capa-oscura1"></div>
+                  </a>
+                  <a href="vestidos-sofia.html" class="vestido2">
+                    <span>
+                      <h3>Vestido Sofia</h3>
+                      <p>$90.000</p>
+                    </span>
+                    <div class="capa-oscura2"></div>
+                  </a>
+                </article>
+
+                <article class="Zapatos">
+                  <h3>Zapatos</h3>
+                  <a href="zapatos-galaxia.html" class="zapatos1">
+                    <span>
+                      <h3>Zapatos Galaxia</h3>
+                      <p>$90.000</p>
+                    </span>
+                    <div class="capa-oscura1"></div>
+                  </a>
+                  <a href="zapatos-lennay.html" class="zapatos2">
+                    <span>
+                      <h3>Zapatos Lennay</h3>
+                      <p>$90.000</p>
+                    </span>
+                    <div class="capa-oscura2"></div>
+                  </a>
+                </article>
+            </section>
         </main>
-        
+
 
         <!-- Componente Footer de 1 Columna -->
         <footer>
@@ -125,7 +199,7 @@
 
         <!-- 1°: LLamado a jQuery desde un CDN -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        
+
         <!-- 2°: Llamado a librerías hijo de jQuery -->
         <!-- jQuery Easing desde CDN -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
@@ -135,7 +209,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
-    
+
         <!-- Cargar JS propio -->
         <script src="js/script.js"></script>
     </body>

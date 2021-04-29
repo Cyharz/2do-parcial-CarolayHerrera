@@ -40,9 +40,7 @@ $(document).ready(function(){
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        speed: 300,
+        speed: 200,
         arrows: true
     });
-
-
 });
